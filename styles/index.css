@@ -1,0 +1,89 @@
+html {
+    box-sizing: border-box;
+} 
+
+* {
+    box-sizing: inherit;
+} 
+
+body {
+    background: #ECF8F8;
+    color: #000;
+    font-family: 'Mate', 'Lucida Bright', 'Times New Roman', serif;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading {
+    font-family: 'Josefin Sans', 'Verdana', 'Futura', sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+h5 {
+    max-width: 640px;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    border-bottom-style: outset;
+    border-right-style: outset;
+}
+
+#firstimage, #secondimage {
+    background: #C9D5A5;
+    padding: 1rem;
+    margin: 2rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+}
+
+#button, #buttontwo {
+    background: #FFBD82;
+    padding: 1em;
+    margin: 1rem;
+    border-radius: 3rem;
+    border-style: ridge;
+}
+
+#attribution1, #attribution2, #attribution3 {
+    max-width: 640px;
+    padding: 0.5rem 0 3rem 0;
+}
+
+#attribution1 {
+    border-bottom-style: double;
+}
+
+#github {
+    padding: 2rem 0;
+    font-weight: bold;
+}
+
+
+/* media query */
+@media screen and (max-width: 700px) {
+    article {
+        margin: 1.5rem;
+    }
+    #goldenretriever, #yorkshireterrier {
+        max-width: 100%;
+    }
+    #caption {
+        margin: 0;
+    }
+    #heading {
+        padding: 1rem 0 0;
+    }
+    #github {
+        padding: 2rem 0 1rem 0;
+    }
+}
